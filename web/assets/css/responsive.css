@@ -1,0 +1,49 @@
+/* PC display */
+@media (min-width: 64em) {}
+
+
+/* Tablet & Mobile display */
+@media (max-width: 63.9375em) {
+    /* Product page - included footer */
+    .product-items{
+        align-items: center;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+
+    /* Product detail */
+
+    .product-detail-container{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .product-wrap, .product-detail-info-wrapper{
+        width: 100%;
+    }
+    .product-detail-info-wrapper{
+        padding: 2rem;
+    }
+
+
+    /* Login page */
+    .login-signup-block{
+        width: 100%;
+    }
+}
+
+
+/* Tablet display */
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
+
+
+
+}
+
+
+/* Mobile display */
+@media (max-width: 46.1875em) {
+
+
+
+}

@@ -1,0 +1,178 @@
+.user-order-container {
+    padding: 40px 10rem;
+}
+
+.order-details-wrap {
+    background-color: rgb(236 236 236 / 40%);
+    padding: 30px 6rem;
+}
+
+
+.order-details-wrap:not(:first-child) {
+    margin-top: 30px;
+}
+
+.order-title {
+    display: flex;
+    font-size: 1.5rem;
+    margin: 0 0 22px 0;
+    justify-content: space-between;
+}
+
+.order-title-left {
+    display: flex;
+}
+
+.order-status::before {
+    content: "";
+    margin: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.order-item-list {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+
+.product-image-container .cart-item-img {
+    border-radius: 0px;
+}
+
+.order-describe {
+    width: 100%;
+}
+
+.order-describe,
+.order-item-name,
+.order-item-capacity {
+    font-size: 1.5rem;
+}
+
+.order-item-price {
+    font-size: 1.6rem;
+}
+
+.item-wrap:not(:first-child)::before {
+    content: "";
+    border-top: 0.2px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.order-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 1.8rem;
+    padding: 20px 0 0;
+}
+
+.order-total-money {
+    margin-bottom: 20px;
+}
+
+
+/* Order-list-user css section */
+
+.order-body {
+    padding: 20px 4rem;
+    margin-bottom: 85px;
+}
+
+.order-list-header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.order-list-header::after {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    content: "";
+    width: 94%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+
+.new-order-btn {
+    background-image: linear-gradient(-45deg, rgba(50, 174, 111, 0.3), rgba(50, 174, 111, 0.6), #32936F);
+}
+
+.order-sort-title {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+}
+
+.order-table {
+    font-size: 1.6rem;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+button.btn.btn-outline-danger {
+    font-size: 1.2rem;
+}
+
+.detail-row, .action-row {
+    text-align: center;
+}
+/* css status icon color */
+.processing-icon {
+    /* #F3CA40    -  rgba(243,202,64) */
+    filter: invert(96%) sepia(49%) saturate(2994%) hue-rotate(323deg) brightness(98%) contrast(95%);
+}
+
+.paid-icon {
+    /* #32936F    - rgba(50,147,111) */
+    filter: invert(46%) sepia(64%) saturate(379%) hue-rotate(106deg) brightness(92%) contrast(92%);
+}
+
+.canceled-icon {
+    /* #E54B4B    -  rgba(229,75,75) */
+    filter: invert(48%) sepia(81%) saturate(1130%) hue-rotate(325deg) brightness(88%) contrast(105%);
+}
+
+.status-row {
+    padding-left: 0 !important;
+}
+
+.status-icon {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.status-icon p {
+    font-size: 12px;
+    margin: 0 0 0 3px;
+    font-weight: 800;
+}
+
+.processing-box {
+    color: #F3CA40;
+    background-color: rgba(243, 202, 64, 0.2);
+}
+
+.paid-box {
+    color: #32936F;
+    background-color: rgba(50, 147, 111, 0.2);
+}
+
+.canceled-box {
+    color: #E54B4B;
+    background-color: rgba(229, 75, 75, 0.2);
+}
+
+/* END of status icon css */
+.order-footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
